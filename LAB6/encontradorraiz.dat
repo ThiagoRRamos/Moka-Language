@@ -1,0 +1,54 @@
+programa encontrarmaioria;
+
+var
+	logic s;
+	int resultado;
+	int tos[10];
+
+funcao int raiz(int l);
+
+var int temp;
+{	
+	temp :=0;
+	enquanto(temp*temp<=l){
+		se(temp*temp=l){
+			resultado := l;
+			retornar temp;
+		}
+		temp := temp+1;
+	}
+	retornar ~1;
+}
+
+funcao logic temquadradoperfeito();
+var int t;
+{
+	para(t:=0;t<10;t:=t+1){
+		se(raiz(tos[t])!=~1){
+			retornar verdade;
+		}
+	}
+	retornar falso;
+}
+
+procedimento carregarvetor();
+var int t;
+{
+	t:=0;
+	repetir{
+		ler(tos[t]);
+		t:=t+1;
+	}enquanto(t<10);
+	retornar;
+}
+
+
+{	
+	chamar carregarvetor();
+	s := temquadradoperfeito();
+	se(s){
+		escrever("Tem quadrado perfeito: ",resultado);
+	}senao{
+		escrever("Nao tem quadrado perfeito");
+	}
+}

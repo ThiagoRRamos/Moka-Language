@@ -1,0 +1,29 @@
+programa teste;
+
+var
+	int b;
+	real e;
+
+funcao real func(int x, carac c);
+{
+	x := x*x+c;
+	retornar x+0.5;
+}
+
+procedimento proc(real r);
+{
+	b := b*4;
+	se(r>0.5){
+		b:=b+1;
+	}senao{
+		b:=b-1;
+	}
+	retornar;
+}
+
+{
+	e:=4;
+	e := func(4,'y');
+	chamar proc(e);
+
+}

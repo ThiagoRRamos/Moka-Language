@@ -1,0 +1,16 @@
+programa teste;
+
+var
+	real a, b, c;
+
+{
+	ler(i);
+	a:=1;
+	b:=0;
+	j:=0;
+	enquanto j<i {
+		temp:=a+b;
+		b:=a;
+		a:=temp;
+	}
+}

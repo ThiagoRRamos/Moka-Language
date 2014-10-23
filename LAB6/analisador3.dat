@@ -1,0 +1,15 @@
+programa teste;
+
+var
+	int c, d;
+	logic e;
+	real m;
+
+{
+	d := 3;
+	e := falso;
+	para(c:=0;c<d;c:=c+1){
+		d := d-1;
+		m := m*2;
+	}
+}

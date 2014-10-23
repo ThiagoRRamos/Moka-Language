@@ -1,0 +1,53 @@
+programa teste;
+
+var
+	int cx, cy;
+	int tos[20];
+
+procedimento swap(int a1, int a2);
+
+var int temp;
+{
+	temp := tos[a1];
+	tos[a1] := tos[a2];
+	tos[a2] := temp;
+	retornar;
+}
+
+procedimento bubblesort();
+
+var
+	int cx, cy;
+{
+	para(cx:=0;cx<20;cx:=cx+1){
+		para(cy:=0;cy<19-cx;cy:=cy+1){
+			se(tos[cy] > tos[cy+1]){
+				chamar swap(cy,cy+1);
+			}
+		}
+	}
+	retornar;
+}
+
+procedimento imprimirtabela();
+
+var int temp;
+{
+	para(temp:=0;temp<19;temp:=temp+1){
+		escrever(tos[temp]," ");
+	}
+	escrever(tos[19]);
+	retornar;
+}
+
+{	
+	cy:=1;
+	para(cx:=0;cx<20;cx:=cx+1){
+		tos[cx] := cy;
+		cy := (cy*17)%23;
+	}
+	chamar imprimirtabela();
+	chamar bubblesort();
+	escrever("Depois de ordenado:");
+	chamar imprimirtabela();
+}

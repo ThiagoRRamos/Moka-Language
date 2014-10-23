@@ -1,0 +1,106 @@
+programa teste;
+
+var
+	int i, jjj, h, tb;
+	logic n, m;
+	real v[10], i;
+	carac x, y, z, w;
+
+funcao int mascarado();
+var int i, jjj, h, tb;
+	logic n, m;
+	real v[10], i;
+	carac x, y, z, w;{	
+	b := 2;
+	retornar b;
+}
+
+funcao int mascparam(real x);
+
+var
+	int i, jjj, h, tb;
+	logic n, m;
+	real v[10], i;
+	carac x, y, z, w;
+
+{	
+	b := 2;
+	retornar b;
+}
+
+
+procedimento marcar();
+
+var
+real pl;
+
+{
+	pl := pl+2;
+}
+
+procedimento marcarparam(logic l);
+
+var
+int pppp; logic ass;
+
+{
+	pppp := pppp-2;
+	ass := l;
+}
+
+{
+	enquanto (x>3) {
+		ler (x);
+		d := d - 1;
+		para(i:=0;i < p; p:= i+1){
+			repetir{
+				a:=a*2;
+			}enquanto(a<10);
+		}
+	}
+	se(a<1000){
+		escrever("pipoca");
+	}
+	repetir {x := x + 1;} enquanto (x<2);
+	x := n && m; v := 3.5 * v; y := '@';
+	{
+   	i := jjj*falso; jjj := 0;
+	}
+	ler (y, p, macort,mmm   ,  p);
+	se(p*2=10){
+		p := 56;
+	}senao{
+		macort := mm;
+	}
+	jjj := n + 1; i := i + 1;
+	{	 
+   	i := !i; i := i + 1 + z;
+   	a := colima();
+		b := comparam(mop, lin, pl);
+      		{
+      	i := 0; jjj := 0;
+      }
+      jjj := jjjj +
+       teste;
+	}
+		chamar marina();
+	chamar coliana(x, y, m, n);
+	m := v + 2 > x; 
+	m := n != verdade;
+	m := i >= n; 
+	n := m = 4;
+	i := i + 1;
+	escrever("malalaca", x+3); 
+	n := ~ m;
+	n := (!m && n) && (m && !n);
+	 { i := 1; i := 
+  i + 1; i := 0;
+  {j := 0;{ j
+  := j + 1; a := b -
+  (x-3) 
+  + c; } i := i - 
+  1; } }
+	n := (~h + v) * (tb - jjj);
+	i := (!m || n) - 5;
+	retornar 43 + a;
+}

@@ -1,0 +1,56 @@
+programa teste;
+
+var
+	int a, resultado,cx,cy;
+	real b;
+	logic c;
+	carac d;
+	int h[5,6], tos[20];
+
+
+funcao int recursiva(int x);
+
+var int p1;
+
+{	
+	p1 := recursiva(1);
+	retornar p1;
+}
+
+procedimento semretorno(int a1, int a2);
+
+var int temp;
+{
+	temp := recursiva(a1);
+	naodeclarada := 5;
+	h[1] := temp;
+	retornar temp;
+}
+
+procedimento semparam();
+	
+var int i;
+
+{
+	retornar;
+}
+
+funcao logic comparam();
+{
+	retornar;
+}
+
+funcao real paramdif();
+{
+	retornar falso;
+}
+
+{	
+	c:= 4;
+	a :=6<b;
+	para(c:=falso;a+1;b:=verdade){
+		tos[50,40] := a[1];
+		tos[c] := falso;
+	}
+
+}

@@ -1,0 +1,31 @@
+programa teste;
+
+var
+	int a, resultado;
+
+
+funcao int fibonnaci(int x);
+
+var int p1, p2, cont, temp;
+
+{	
+	para(cont:=0;cont<x;cont:=cont+1){
+		temp := p2;
+		p2 := p1+p2;
+		p1 := temp;
+	}
+	retornar p1;
+}
+
+procedimento m(int k, real l);
+
+{
+	retornar;
+}
+
+{	
+	escrever("Valor para calcular");
+	ler(a);
+	resultado := fibonnaci(a);
+	escrever("Resultado eh",resultado);
+}

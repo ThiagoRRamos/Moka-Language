@@ -1,0 +1,16 @@
+programa teste;
+
+var
+	int a;
+	logic g, h;
+	carac i;
+
+{	
+	a := 5;
+	g :=falso;
+	h :=verdade;
+	i := 0;
+	se(a<8 && g!=h){
+		i := i+1;
+	}
+}

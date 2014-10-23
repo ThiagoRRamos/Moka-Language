@@ -1,0 +1,28 @@
+programa encontrarmaioria;
+
+var
+	int qtde, i;
+	real val;
+
+funcao real raiz(real l, real eps);
+
+var real temp;
+{	
+	se(l<0){
+		retornar 0;
+	}
+	temp := 1;
+	enquanto(temp*temp<=l-eps||temp*temp>=l+eps){
+		temp := (temp+l/temp)/2.0;
+	}
+	retornar temp;
+}
+
+
+{	
+	ler(qtde);
+	para(i:=0;i<qtde;i:=i+1){
+		ler(val);
+		escrever("Raiz de ",val," eh aprox ",raiz(val,0.1));
+	}
+}

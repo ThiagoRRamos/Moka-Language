@@ -1,0 +1,33 @@
+programa teste;
+
+var
+	int a, b, c, d;
+	logic e, f, g, h;
+	carac i;
+	real m;
+
+{	
+	a := 5;
+	b := 0;
+	c := b+a;
+	d := a*41;
+	e :=falso;
+	f :=falso;
+	g :=falso;
+	h :=verdade;
+	m := 0.3;
+	i := 'a';
+	se(a<8 && g!=h){
+		i := i+1;
+		enquanto(b!=10 || f){
+			b:=b+1;
+		}
+	}
+	para(c:=0;c>=d && d=d;c:=c+1){
+		repetir{
+			escrever(c,d);
+			d := d-1;
+			m := m*2;
+		}enquanto(d>0 && e);
+	}
+}

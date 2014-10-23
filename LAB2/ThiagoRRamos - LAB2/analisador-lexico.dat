@@ -1,0 +1,32 @@
+arroba:=entra+2
+a>3
+b:=13.2*7.2E4-91
+
+enquanto(a>3){arb=2}
+retornar;
+retornar arpa;
+procedimento lancar();
+/* Fazendo comentario de
+duas linhas */
+se (a>b) chamar lancar()
+/*Isso eh um comentario. Ignorar*/
+enquanto (6>=5)b:=pop+1
+logic arco,lance,pinp,qwerty
+para (contador:=1;contador<maximo;/*Testando*/contador:=contador*2+1)b:=b/1.5
+
+funcao int fatorial(int n)
+	var int a, b, i;
+	logic loucura;
+	real reeee;
+	carac coc;
+{
+	a := 1;
+	i := 0;
+	enquanto (i < n){
+		i := i+1;
+		int temp := a + b;
+		b := a;
+		a := temp;
+	}
+	retornar a;
+}
